@@ -79,12 +79,7 @@ body {
 }
 
 .custom-class {
-background: linear-gradient(270deg, #388087, #6fb3b8, #badfe7, #c2edce, #f6f6f2);
-background-size: 1600% 1600%;
-
--webkit-animation: AnimationName 59s ease infinite;
--moz-animation: AnimationName 59s ease infinite;
-animation: AnimationName 59s ease infinite;
+background: linear-gradient(270deg, #00c224, #87c200, #00c8cd, #007fcd); background-size: 800% 800%; -webkit-animation: AnimationName 30s ease infinite; -moz-animation: AnimationName 30s ease infinite; animation: AnimationName 30s ease infinite;
 }
 
 @-webkit-keyframes AnimationName {
