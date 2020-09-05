@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+   title, h1, h2, h3, h4, h5, h6 {
+      font-family: 'Hepta Slab', serif;
+      letter-spacing: 3px;
+      word-spacing: 3px;
+    }
+    
+    p {
+      font-family: 'Hepta Slab', serif;
+      letter-spacing: 1.5px;
+      word-spacing: 1.5px;
+    }
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  display: none; /* Hide all elements by default */
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+</style>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  
+  <!-- Bootstrap Custom CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="css/modern-business.css" rel="stylesheet">
+    
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/5.10.2/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  
+  <link href="https://use.fontawesome.com/releases/v5.10.2/css/all.css" rel="stylesheet">
+</head>
+<body class="custom-class">
+  
+  <!-- Navigation -->
+      
+    <div class="container" style="letter-spacing: 3px; word-spacing: 3px;">
+            
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        
+        <span class="navbar-toggler-icon"></span>
+		</button>
+        
+        <ul class="navbar-nav ml-auto">
+          
+          <li class="nav-item">
+            <a class="nav-link" href="PORTFOLIO.html" style="color: black;">PORTFOLIO</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="MISSION.html" style="color: black;">MISSION</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="ABOUT.html" style="color: black;">ABOUT</a>
+          </li>
+		  
+		   <li class="nav-item">
+            <a class="nav-link" href="index.html" style="color: black;">HOME</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="RESUME.html" style="color: black;">RESUME</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="CONTACT.html" style="color: black;">CONTACT</a>
+          </li>
+          
+        </ul>
+        
+      </div>
+      
+    </div>
+    
+  </nav>
+  
+  </body>
+
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+
+
+<!-- <div id="myBtnContainer"> -->
+  <!-- <button class="btn active" onclick="filterSelection('all')"> Show all</button> -->
+  <!-- <button class="btn" onclick="filterSelection('Hackathons')"> Hackathons/Technology Adventures</button> -->
+  <!-- <button class="btn" onclick="filterSelection('Famous Tech Celebrities')"> Famous Tech Celebrities</button> -->
+<!-- </div> -->
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column nature">
+    <div class="content">
+      <img src="C:\Users\pauld\Desktop\scarletknight11.github.io\img\Brendan.jpg" alt="Brendan" style="width:100%">
+       <p>Me in a picture with Oculus Co-Founder Brendan Iribe @ Bitcamp, 2018(Hackathon @ UMD College Park)</p>
+    </div>
+  </div>
+  <div class="column nature">
+    <div class="content">
+    <img src="C:\Users\pauld\Desktop\scarletknight11.github.io\img\mikeswift.jpg" alt="MLH" style="width:65%">
+      <p>Picture with Co-Founder & CEO of Major League Hacking (MLH), Mike Swift @ MLH hackcon conference 2019</p>
+    </div>
+  </div>
+  <div class="column nature">
+    <div class="content">
+    <img src="C:\Users\pauld\Desktop\scarletknight11.github.io\img\vijaykumar.jpg" alt="Vijay Kumar" style="width:100%">
+      <p>Picture with Dr. Vijay Kumar, one of the world leading experts in robotics, entrepreneur and also the Nemirovsky Family Dean of Penn Engineering @ Pennapps, Fall 2019</p>
+    </div>
+  </div>
+  
+  <div class="column cars">
+    <div class="content">
+      <img src="/w3images/cars1.jpg" alt="Car" style="width:100%">
+      <h4>Retro</h4>
+      <p> </p>
+    </div>
+  </div>
+  <div class="column cars">
+    <div class="content">
+    <img src="/w3images/cars2.jpg" alt="Car" style="width:100%">
+      <h4>Fast</h4>
+      <p> </p>
+    </div>
+  </div>
+  <div class="column cars">
+    <div class="content">
+    <img src="/w3images/cars3.jpg" alt="Car" style="width:100%">
+      <h4>Classic</h4>
+      <p> </p>
+    </div>
+  </div>
+
+  <div class="column people">
+    <div class="content">
+      <img src="/w3images/people1.jpg" alt="Car" style="width:100%">
+      <h4>Girl</h4>
+      <p> </p>
+    </div>
+  </div>
+  <div class="column people">
+    <div class="content">
+    <img src="/w3images/people2.jpg" alt="Car" style="width:100%">
+      <h4>Man</h4>
+      <p> </p>
+    </div>
+  </div>
+  <div class="column people">
+    <div class="content">
+    <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+      <h4>Woman</h4>
+      <p> </p>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+
+<!-- END MAIN -->
+</div>
+
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("column");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+
+</body>
+</html>
